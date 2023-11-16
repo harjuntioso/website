@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+      }
+      .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+      }
+      .column img {
+        width: 100%;
+        height: auto;
+      }
+      .column h2 {
+        margin: 5px 0;
+      }
+      .column p {
+        margin: 5px 0;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <img src="/image/artikel1.png" alt="image_1" />
+        <h2>Title 1</h2>
+        <p>Description 1</p>
+      </div>
+      <div class="column">
+        <img src="/image/artikel3.png" alt="image_2" />
+        <h2>Title 2</h2>
+        <p>Description 2</p>
+      </div>
+      <div class="column">
+        <img src="/image/artikel2.png" alt="image_3" />
+        <h2>Title 3</h2>
+        <p>Description 3</p>
+      </div>
+      <br />
+      <div class="column">
+        <img src="/image/artikel4.png" alt="image_3" />
+        <h2>Title 3</h2>
+        <p>Description 3</p>
+      </div>
+      <div class="column">
+        <img src="/image/artikel5.png" alt="image_3" />
+        <h2>Title 3</h2>
+        <p>Description 3</p>
+      </div>
+    </div>
+  </body>
+</html>

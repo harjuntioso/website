@@ -103,7 +103,7 @@ nav ul li a {
 .profile img {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: 100%;
   margin-right: 10px;
 }
 
@@ -171,30 +171,48 @@ nav ul li a {
 .articles {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.article {
-  width: 30%;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  overflow: hidden;
-  margin-bottom: 20px;
+/* recommendation */
+
+/* Style for the recommendations section */
+#recommendations {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 40px 0;
 }
 
-.thumbnail img {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Style for the product list */
+.product-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/* Style for each product item */
+.product {
+  text-align: center;
+  margin: 15px;
+}
+
+.product img {
   width: 100%;
-  height: 80%;
-  object-fit: cover;
+  max-height: 200px;
+  object-fit: fill;
 }
 
-.content {
-  padding: 15px;
+/* Add the following styles to align h3 and p */
+.product h3 {
+  margin: 10px 0 5px 0; /* Top margin 10px, bottom margin 5px */
 }
 
-.content h3 {
-  margin-bottom: 10px;
+.product p {
+  margin: 5px 0; /* Top and bottom margin 5px */
+  font-weight: bold;
+  color: #007bff;
 }
-
-/* dan styling lainnya */
